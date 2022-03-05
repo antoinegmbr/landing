@@ -11,17 +11,20 @@ body {
 }
 h1, h2, h3 {
 	font-family: Courier;
+	font-weight: 900;
 }
 h1{
 	color: #575F7D;
-	font-size: 32px;
-	font-weight: 900;
+	font-size: 45px;
+	font-weight: 200;
+	font-family: fantasy;
 
 }
 h2{
-	color: rgb(100,100, 100);
+	color: #01096b;
 	font-size: 24px;
-	font-weight: lighter;
+	font-weight: 2000;
+
 }
 
 a{
@@ -100,4 +103,15 @@ a:hover{
 .list-inline:hover{
 	font-size: 50px;
 	color: rgb(230, 230, 230);
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 150px;
+	height: 200px;
+}
+.img-cici{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
 }
